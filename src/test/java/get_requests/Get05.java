@@ -1,13 +1,13 @@
 package get_requests;
 
-import base_urls.HerOkurAppBaseUrl;
+import base_urls.HerOkuAppBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertTrue;
 
-public class Get05 extends HerOkurAppBaseUrl {
+public class Get05 extends HerOkuAppBaseUrl {
 
     /*
     Given

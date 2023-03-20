@@ -1,6 +1,6 @@
 package get_requests;
 
-import base_urls.HerOkurAppBaseUrl;
+import base_urls.HerOkuAppBaseUrl;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 import static org.hamcrest.Matchers.equalTo;
 
-public class Get06 extends HerOkurAppBaseUrl {
+public class Get06 extends HerOkuAppBaseUrl {
 
     /*
         Given
